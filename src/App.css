@@ -1,24 +1,72 @@
-.App {
-  text-align: left;
+.App-header {
+  display:flex;
+  position:fixed;
+  width:100%;
+  justify-content: space-between;
+  background-color: #e9beb1;
+  padding:0.5em;
+  height: 2.8em;
+  color: #1d0000;
 }
-
+ 
 .App-logo {
-  height: 3em;
+  height: 2.8em;
   margin-left: 1em;
 }
 
-
-.App-header {
-  background-color: #f8d3c7;
-  min-height: 100vh;
-  color: #1d0000;
+.search-bar{
+  width: 700px;
+  padding: 0.3em 0.4em;
+  margin: 0.25em 0em;
+  font-size: 19px;
+  border:none;
+  background-color: #f9ddd3;
 }
 
-.App-link {
-  color: #75ac75;
+i{
+  color: #4e3124;
+  font-size:2em;
+  margin-right:1.5em;
 }
 
-.nav{
-  background-color: #e9beb1;
+@media only screen and (max-width: 1205px) {
+  .App-logo {
+    margin-left: 0.3em;
+    margin-right: 0.5em;
+  }
+  .search-bar{
+    width:80%;
+    margin-right:1.8em;
+  }
+  .icons {
+    width:100%;
+    text-align: center;
+    position: fixed;
+    margin: auto;
+    bottom:5px;
+  }
+  i{
+    margin:0px 10%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .panel{
+    min-width:280px;
+    margin:5px 5px 0px 5px;
+  }
+
 }
 
+.display-panel{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.panel{
+  min-width:320px;
+  width: 15vw;
+  height:45vh;
+  margin:10vh 5px 0px 5px;
+  background-color: white;
+}
