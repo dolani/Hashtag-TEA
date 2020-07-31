@@ -4,8 +4,9 @@ import './App.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faClock, faHome, faShare } from '@fortawesome/free-solid-svg-icons'
 import Home from './Home'
+import Footer from './Footer'
 
-function App() {
+export default function App() {
   return (
     <div>
       <header className="App-header">
@@ -18,8 +19,7 @@ function App() {
         </span>
       </header>
       <Home/>
+      <Footer/>
     </div>
   );
 }
-
-export default App;

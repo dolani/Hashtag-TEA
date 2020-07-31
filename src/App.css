@@ -1,5 +1,6 @@
 .App-header {
   display:flex;
+  z-index: 100;
   position:fixed;
   width:100%;
   justify-content: space-between;
@@ -15,50 +16,28 @@
 }
 
 .search-bar{
-  width: 700px;
+  width: 50%;
   padding: 0.3em 0.4em;
   margin: 0.25em 0em;
   font-size: 19px;
   border:none;
   background-color: #f9ddd3;
 }
+.icons{
+  padding-top:0.4em;
+}
 
 i{
   color: #4e3124;
   font-size:2em;
+  top:15em;
   margin-right:1.5em;
 }
 
-@media only screen and (max-width: 1205px) {
-  .App-logo {
-    margin-left: 0.3em;
-    margin-right: 0.5em;
-  }
-  .search-bar{
-    width:80%;
-    margin-right:1.8em;
-  }
-  .icons {
-    width:100%;
-    text-align: center;
-    position: fixed;
-    margin: auto;
-    bottom:5px;
-  }
-  i{
-    margin:0px 10%;
-  }
-}
-@media only screen and (max-width: 500px) {
-  .panel{
-    min-width:280px;
-    margin:5px 5px 0px 5px;
-  }
-
-}
-
 .display-panel{
+  width:80%;
   display: flex;
+  margin:auto;
   justify-content: space-around;
   flex-wrap: wrap;
 }
@@ -69,4 +48,77 @@ i{
   height:45vh;
   margin:10vh 5px 0px 5px;
   background-color: white;
+  text-align: center;
+}
+
+.name{
+  position:relative;
+  text-align: left;
+  background-color: rgb(241, 241, 241);
+  padding: 0.2em 0.5em;
+  color: #4e3124;
+  font-size: 27px;
+}
+ p{
+   color:#4e3124;
+   font-size:1.4em;
+   text-align: left;
+   margin:0;
+   padding:0em 0.7em;
+ }
+ img{
+   height:229px;
+ }
+.footer{
+  color: #4e3124;
+  font-size: 1.2em;
+  margin: 2em 0em 1em 0em;
+  text-align: center;
+}
+
+@media only screen and (max-width: 1105px) {
+  .search-bar{
+    margin-right:1em;
+    margin-left:1em;
+  }
+  
+  i{
+    margin-right:0.7em;
+  }
+}
+
+@media only screen and (max-width: 765px) {
+  .display-panel{
+    padding-top: 65px;
+    width:90%;
+  }
+
+  .App-logo {
+    margin-left: 0.3em;
+    margin-right: 0.5em;
+  }
+  .search-bar{
+    width:80%;
+    margin-right:1.4em;
+  }
+  .icons {
+    background-color: #e9beb1;
+    width:100%;
+    text-align: center;
+    position: fixed;
+    margin: auto;
+    bottom:0;
+    left:0;
+    padding-bottom:5px;
+  }
+  .footer{
+    padding-bottom: 60px;
+  }
+  i{
+    margin:0px 10%;
+  }
+  .panel{
+    min-width:290px;
+    margin:5px 5px 0px 5px;
+  }
 }
