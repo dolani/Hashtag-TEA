@@ -1,3 +1,7 @@
+<img width="360px" src="https://github.com/victoria-lo/Hashtag-TEA/blob/master/public/favi.png?raw=true"/>
+
+<center> <h3>A PWA for Tea Lovers using Tea-API (TAPI)</h3> </center>
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
