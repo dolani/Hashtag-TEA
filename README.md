@@ -1,4 +1,4 @@
-<img src="https://github.com/victoria-lo/Hashtag-TEA/blob/master/public/favi.png?raw=true"/>
+<img width="360px" src="https://github.com/victoria-lo/Hashtag-TEA/blob/master/public/favi.png?raw=true"/>
 
 <center> <h3>A PWA for Tea Lovers using Tea-API (TAPI)</h3> </center>
 
