@@ -11,7 +11,7 @@ import { Link } from "react-router-dom";
 import { TwitterShareButton } from "react-share";
 
 export default function Nav() {
-  const shareUrl = "https://tea-api-vic-lo.herokuapp.com";
+  const shareUrl = "https://victoria-lo.github.io/Hashtag-TEA";
   const hashtag = [
     "PWA",
     "WebDevelopment",
@@ -25,12 +25,12 @@ export default function Nav() {
       <img src={logo} className="App-logo" alt="logo" />
       <p className="tag">A simple PWA for Tea Lovers~</p>
       <span className="icons">
-        <Link to="/">
+        <Link to="/Hashtag-TEA">
           <i>
             <FontAwesomeIcon icon={faHome} />
           </i>
         </Link>
-        <Link to="/about">
+        <Link to="/Hashtag-TEA/about">
           <i>
             <FontAwesomeIcon icon={faInfoCircle} />
           </i>

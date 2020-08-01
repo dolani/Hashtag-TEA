@@ -13,8 +13,8 @@ export default function App() {
       <div>
         <Nav />
         <Switch>
-          <Route path="/" exact component={Home} />
-          <Route path="/about" component={About} />
+          <Route path="/Hashtag-TEA" exact component={Home} />
+          <Route path="/Hashtag-TEA/about" component={About} />
         </Switch>
         <Footer />
       </div>
