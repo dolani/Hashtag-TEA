@@ -25,7 +25,7 @@ export default function Nav() {
       <img src={logo} className="App-logo" alt="logo" />
       <p className="tag">A simple PWA for Tea Lovers~</p>
       <span className="icons">
-        <Link to="/Hashtag-TEA">
+        <Link to="/Hashtag-TEA/">
           <i>
             <FontAwesomeIcon icon={faHome} />
           </i>
