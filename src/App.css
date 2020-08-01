@@ -43,6 +43,8 @@ i{
 }
 
 .panel{
+  display: flex;
+  flex-direction: column;
   min-width:320px;
   width: 15vw;
   height:auto;
@@ -62,23 +64,36 @@ i{
 
 .content{
   text-align: left;
-  height:30%;
+  margin-top: auto;
+  flex-basis: 210px;
   background-color: rgb(241, 241, 241);
   padding: 0.5em 0.5em;
   color:#4e3124;
   font-size:1.4em;
+  overflow-y: auto;
 }
 p{
   margin:0;
 }
- img{
-   height:229px;
- }
+.tea-img{
+  padding:0.6em;
+  flex-basis:310px;
+}
 
- .timer-container{
+.comment{
+  border: none;
+  padding:0.7em;
+}
+
+ .about-container{
    display:flex;
+   flex-direction: column;
+   width:70%;
+   align-items: center;
+   margin:auto;
    justify-content: center;
-   font-size: 2.4em;
+   color: #4e3124;
+   font-size: 1.8em;
    text-align: center;
    padding:68px 0px;
  }
@@ -132,7 +147,8 @@ p{
     margin:0px 10%;
   }
   .panel{
-    min-width:290px;
-    margin:5px 5px 0px 5px;
+    max-width:360px;
+    min-width:280px;
+    margin:15px 5px 0px 5px;
   }
 }

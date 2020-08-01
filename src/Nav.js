@@ -2,7 +2,7 @@ import React from 'react';
 import logo from './logo.png';
 import './App.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faClock, faHome, faShare } from '@fortawesome/free-solid-svg-icons'
+import { faInfoCircle, faHome, faShare } from '@fortawesome/free-solid-svg-icons'
 import {Link} from 'react-router-dom'
 
 export default function Nav() {
@@ -12,7 +12,7 @@ export default function Nav() {
           <input className="search-bar" placeholder="Search"/>
           <span className="icons">
             <Link to='/'><i><FontAwesomeIcon icon={faHome} /></i></Link>
-            <Link to='/timer'><i><FontAwesomeIcon icon={faClock} /></i></Link>
+            <Link to='/about'><i><FontAwesomeIcon icon={faInfoCircle} /></i></Link>
             <Link><i><FontAwesomeIcon icon={faShare} /></i></Link>
           </span>
         </header>  
