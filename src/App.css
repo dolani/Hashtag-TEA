@@ -19,7 +19,7 @@
   width: 50%;
   padding: 0.3em 0.4em;
   margin: 0.25em 0em;
-  font-size: 19px;
+  font-size: 17px;
   border:none;
   background-color: #f9ddd3;
 }
@@ -45,7 +45,7 @@ i{
 .panel{
   min-width:320px;
   width: 15vw;
-  height:45vh;
+  height:auto;
   margin:10vh 5px 0px 5px;
   background-color: white;
   text-align: center;
@@ -59,16 +59,30 @@ i{
   color: #4e3124;
   font-size: 27px;
 }
- p{
-   color:#4e3124;
-   font-size:1.4em;
-   text-align: left;
-   margin:0;
-   padding:0em 0.7em;
- }
+
+.content{
+  text-align: left;
+  height:30%;
+  background-color: rgb(241, 241, 241);
+  padding: 0.5em 0.5em;
+  color:#4e3124;
+  font-size:1.4em;
+}
+p{
+  margin:0;
+}
  img{
    height:229px;
  }
+
+ .timer-container{
+   display:flex;
+   justify-content: center;
+   font-size: 2.4em;
+   text-align: center;
+   padding:68px 0px;
+ }
+
 .footer{
   color: #4e3124;
   font-size: 1.2em;
