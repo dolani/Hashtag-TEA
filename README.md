@@ -8,14 +8,14 @@ It is a very simple PWA that showcases the T-API as an app for use. [See Demo](h
 
 Users can browse teas from the API, post comments to a single tea and share the PWA on Twitter!
 
-## Technologies Used
+### Technologies Used
 - [React](https://reactjs.org/docs/getting-started.html)
 - [Tea API](https://tea-api-vic-lo.herokuapp.com/)
 
-## Dependencies
+### Dependencies
 ```react-share```
 ```react-router-dom```
 ```react-fontawesome```
 
-## How I built it
+### How I built it
 Coming soon on https://lo-victoria.com
