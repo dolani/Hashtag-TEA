@@ -27,9 +27,13 @@ export default function Home() {
             <p>{`Brew Time: ${tea.brew_time}min`}</p>
             <p>{`Temperature: ${tea.temperature}°C`}</p>
             <p>{"Comments: "}</p>
-            <p>{tea.comments.map(comment => <p>{`"${comment.text}"`}</p>)}</p>
+            <p>{tea.comments.map(comment => <p key={comment._id}>{`"${comment.text}"`}</p>)}</p>
           </div>
-          <input className = "comment" placeholder="Add a comment..."/>
+          <div className="form">
+            <input className = "comment" placeholder="Add a comment..."/>
+            <button className="post">Post</button>
+          </div>
+          
         </div>
       ))}
       

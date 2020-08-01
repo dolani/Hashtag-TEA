@@ -46,7 +46,7 @@ i{
   display: flex;
   flex-direction: column;
   min-width:320px;
-  width: 15vw;
+  flex-basis: 15vw;
   height:auto;
   margin:10vh 5px 0px 5px;
   background-color: white;
@@ -80,12 +80,28 @@ p{
   flex-basis:310px;
 }
 
+.form{
+  display:flex;
+}
 .comment{
+  flex: 2 1 auto;
   border: none;
   padding:0.7em;
 }
+.post{
+  cursor: pointer;
+  margin-left:auto;
+  border:none;
+  background-color: white;
+  color:rgb(43, 131, 62);
+  padding:0.8em;
+}
 
- .about-container{
+.post:hover{
+  font-weight: bolder;
+}
+
+.about-container{
    display:flex;
    flex-direction: column;
    width:70%;
@@ -96,7 +112,7 @@ p{
    font-size: 1.8em;
    text-align: center;
    padding:68px 0px;
- }
+}
 
 .footer{
   color: #4e3124;
