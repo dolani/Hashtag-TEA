@@ -1,60 +1,61 @@
 .App-header {
-  display:flex;
+  display: flex;
   z-index: 100;
-  position:fixed;
-  width:100%;
+  position: fixed;
+  width: 100%;
   justify-content: space-between;
+  align-items: center;
   background-color: #e9beb1;
-  padding:0.5em;
+  padding: 0.5em;
   height: 2.8em;
   color: #1d0000;
 }
- 
+
 .App-logo {
   height: 2.8em;
   margin-left: 1em;
 }
 
-.search-bar{
+.search-bar {
   width: 50%;
   padding: 0.3em 0.4em;
   margin: 0.25em 0em;
   font-size: 17px;
-  border:none;
+  border: none;
   background-color: #f9ddd3;
 }
-.icons{
-  padding-top:0.4em;
+.icons {
+  padding-top: 0.4em;
 }
 
-i{
+i {
   color: #4e3124;
-  font-size:2em;
-  top:15em;
-  margin-right:1.5em;
+  font-size: 2em;
+  top: 15em;
+  margin-right: 1.5em;
 }
 
-.display-panel{
-  width:80%;
+.display-panel {
+  width: 80%;
   display: flex;
-  margin:auto;
+  margin: auto;
   justify-content: space-around;
   flex-wrap: wrap;
 }
 
-.panel{
+.panel {
   display: flex;
   flex-direction: column;
-  min-width:320px;
+  min-width: 320px;
   flex-basis: 15vw;
-  height:auto;
-  margin:10vh 5px 0px 5px;
+  height: auto;
+  margin: 10vh 5px 0px 5px;
   background-color: white;
   text-align: center;
 }
 
-.name{
-  position:relative;
+.name {
+  position: relative;
   text-align: left;
   background-color: rgb(241, 241, 241);
   padding: 0.2em 0.5em;
@@ -62,59 +63,63 @@ i{
   font-size: 27px;
 }
 
-.content{
+.content {
   text-align: left;
   margin-top: auto;
   flex-basis: 210px;
   background-color: rgb(241, 241, 241);
   padding: 0.5em 0.5em;
-  color:#4e3124;
-  font-size:1.4em;
+  color: #4e3124;
+  font-size: 1.4em;
   overflow-y: auto;
 }
-p{
-  margin:0;
+p {
+  margin: 0;
 }
-.tea-img{
-  padding:0.6em;
-  flex-basis:310px;
+.tea-img {
+  padding: 0.6em;
+  flex-basis: 310px;
 }
 
-.form{
-  display:flex;
+.form {
+  display: flex;
 }
-.comment{
+.comment {
   flex: 2 1 auto;
   border: none;
-  padding:0.7em;
+  padding: 0.7em;
 }
-.post{
+.post {
   cursor: pointer;
-  margin-left:auto;
-  border:none;
+  margin-left: auto;
+  border: none;
   background-color: white;
-  color:rgb(43, 131, 62);
-  padding:0.8em;
+  color: rgb(43, 131, 62);
+  padding: 0.8em;
 }
 
-.post:hover{
+.post:hover {
   font-weight: bolder;
 }
 
-.about-container{
-   display:flex;
-   flex-direction: column;
-   width:70%;
-   align-items: center;
-   margin:auto;
-   justify-content: center;
-   color: #4e3124;
-   font-size: 1.8em;
-   text-align: center;
-   padding:68px 0px;
+.tag {
+  font-size: 1.7em;
 }
 
-.footer{
+.about-container {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  align-items: center;
+  margin: auto;
+  justify-content: center;
+  color: #4e3124;
+  font-size: 1.8em;
+  text-align: center;
+  padding: 68px 0px;
+}
+
+.footer {
   color: #4e3124;
   font-size: 1.2em;
   margin: 2em 0em 1em 0em;
@@ -122,49 +127,49 @@ p{
 }
 
 @media only screen and (max-width: 1105px) {
-  .search-bar{
-    margin-right:1em;
-    margin-left:1em;
+  .search-bar {
+    margin-right: 1em;
+    margin-left: 1em;
   }
-  
-  i{
-    margin-right:0.7em;
+
+  i {
+    margin-right: 0.7em;
   }
 }
 
 @media only screen and (max-width: 765px) {
-  .display-panel{
+  .display-panel {
     padding-top: 65px;
-    width:90%;
+    width: 90%;
   }
 
   .App-logo {
     margin-left: 0.3em;
     margin-right: 0.5em;
   }
-  .search-bar{
-    width:80%;
-    margin-right:1.4em;
+  .search-bar {
+    width: 80%;
+    margin-right: 1.4em;
   }
   .icons {
     background-color: #e9beb1;
-    width:100%;
+    width: 100%;
     text-align: center;
     position: fixed;
     margin: auto;
-    bottom:0;
-    left:0;
-    padding-bottom:5px;
+    bottom: 0;
+    left: 0;
+    padding-bottom: 5px;
   }
-  .footer{
+  .footer {
     padding-bottom: 60px;
   }
-  i{
-    margin:0px 10%;
+  i {
+    margin: 0px 10%;
   }
-  .panel{
-    max-width:360px;
-    min-width:280px;
-    margin:15px 5px 0px 5px;
+  .panel {
+    max-width: 360px;
+    min-width: 280px;
+    margin: 15px 5px 0px 5px;
   }
 }
