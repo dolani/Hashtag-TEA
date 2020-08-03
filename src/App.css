@@ -46,8 +46,7 @@ i {
 .panel {
   display: flex;
   flex-direction: column;
-  min-width: 320px;
-  flex-basis: 15vw;
+  min-width: 329px;
   height: auto;
   margin: 10vh 5px 0px 5px;
   background-color: white;
@@ -147,9 +146,9 @@ p {
     margin-left: 0.3em;
     margin-right: 0.5em;
   }
-  .search-bar {
-    width: 80%;
-    margin-right: 1.4em;
+  .App-header p {
+    text-align: center;
+    font-size: 1.4em;
   }
   .icons {
     background-color: #e9beb1;

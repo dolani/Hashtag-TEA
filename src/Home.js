@@ -43,7 +43,7 @@ export default function Home() {
         <img
           className="tea-img"
           src={`${URL}${tea.image}`}
-          alt={`${URL}+${tea.image}`}
+          alt={`${URL}${tea.image}`}
         />
         <div className="content">
           <p>{tea.description}</p>
