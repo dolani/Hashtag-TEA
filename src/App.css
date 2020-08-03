@@ -47,6 +47,7 @@ i {
   display: flex;
   flex-direction: column;
   min-width: 329px;
+  max-width: 329px;
   height: auto;
   margin: 10vh 5px 0px 5px;
   background-color: white;
@@ -168,7 +169,6 @@ p {
     margin: 0px 10%;
   }
   .panel {
-    max-width: 360px;
     margin: 15px 5px 0px 5px;
   }
 }
