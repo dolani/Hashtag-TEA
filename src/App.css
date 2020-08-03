@@ -169,7 +169,6 @@ p {
   }
   .panel {
     max-width: 360px;
-    min-width: 280px;
     margin: 15px 5px 0px 5px;
   }
 }
