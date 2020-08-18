@@ -38,8 +38,8 @@ export default function Nav() {
         <i>
           <TwitterShareButton
             title="Here's a cool PWA I found made by @lo_victoria2666!"
-            url={shareUrl}
             hashtags={hashtag}
+            url={shareUrl}
           >
             <FontAwesomeIcon icon={faShare} />
           </TwitterShareButton>
