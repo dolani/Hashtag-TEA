@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Hashtag-TEA/precache-manifest.baf30c1a1702a56be2358edc14b16e85.js"
+  "/Hashtag-TEA/precache-manifest.ef73daa48087358dc875ae4ed7129762.js"
 );
 
 self.addEventListener('message', (event) => {
