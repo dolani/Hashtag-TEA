@@ -19,4 +19,4 @@ Users can browse teas from the API, post comments to a single tea and share the 
 ```react-fontawesome```
 
 ### How I built it
-Coming soon on https://lo-victoria.com
+Read article here: https://lo-victoria.com/lets-build-a-react-progressive-web-app
